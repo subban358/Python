@@ -7,8 +7,8 @@ so we have to write a function which returns the length of max length of longest
 def lis(a,b):
 	for i in range(1,len(a)):
 		for j in range(0,i):
-			if(a[i]>=a[j] and b[i]<=b[j]+1):
-				b[i]=b[j]+1
+			if(a[i]>=a[j]):
+				b[i]= max(b[i],b[j]+1)
 	return max(b)			
 
 a=[50, 3, 10, 7, 40, 80] #subsequence=[3 10 40 80]=>> length=4
