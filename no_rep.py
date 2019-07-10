@@ -1,11 +1,16 @@
 '''
-Given an input stream of N characters consisting only of lower case alphabets. The task is to find the first non repeating character, each time a character is inserted to the stream. If no non repeating element is found print -1.
+Given an input stream of N characters consisting only of lower case alphabets. 
+The task is to find the first non repeating character, each time a character is inserted to the stream. 
+If no non repeating element is found print -1.
 
 Input:
-The first line of input contains an integer T denoting the no of test cases. Then T test cases follow. Each test case contains an integer N denoting the size of the stream. Then in the next line are x characters which are inserted to the stream.
+The first line of input contains an integer T denoting the no of test cases. Then T test cases follow. 
+Each test case contains an integer N denoting the size of the stream. 
+Then in the next line are x characters which are inserted to the stream.
 
 Output:
-For each test case in a new line print the first non repeating elements separated by spaces present in the stream at every instinct when a character is added to the stream, if no such element is present print -1.
+For each test case in a new line print the first non repeating elements separated by spaces present in the stream. 
+At every instinct when a character is added to the stream, if no such element is present print -1.
 
 Constraints:
 1 <= T <= 200
