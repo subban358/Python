@@ -10,6 +10,8 @@ For example, the input [3, 4, -1, 1] should give 2. The input [1, 2, 0] should g
 You can modify the input array in-place.
 """
 def run(a,p):
+	if sum(p)<0:
+		return 1
 	a.sort()
 	for i in range (1,p-1):
 		if(a[i+1]>a[i]+1):
